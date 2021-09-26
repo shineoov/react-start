@@ -1,12 +1,8 @@
-function App() {
-    const name = 'REACT';
-    return (
-        <>
-            {/* If */}
-            {name === 'REACT' ? <h1> 리액트~!</h1> : <h1> 리액트 X</h1>}
-            {name === 'REACT' ? <h2>작동 확인!</h2> : null}
-        </>
-    );
-}
+import MyComponent from "./MyComponent";
+
+const App = () => {
+    return <MyComponent name="shine" favoriteNumber={10}>child!</MyComponent>;
+};
+
 
 export default App;
