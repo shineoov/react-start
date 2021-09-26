@@ -1,7 +1,7 @@
-import MyComponent from "./MyComponent";
+import Counter from "./Counter";
 
 const App = () => {
-    return <MyComponent name="shine" favoriteNumber={10}>child!</MyComponent>;
+    return <Counter/>;
 };
 
 
